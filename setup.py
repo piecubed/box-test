@@ -7,12 +7,12 @@ with open('README.md', 'r') as f:
 
 setup(
     name        = 'boxtest',
-    version     = '0.3stable',
-    py_modules  = ['boxtest'],
+    version     = '0.3.1',
     author      = 'piesquared',
     description = 'A lightweight basic testing framework.',
     url         = 'https://github.com/piecubed/box-test',
     license     = 'MIT',
+    packages    = ['boxtest'],
 
     long_description              = desc,
     long_description_content_type = 'text/markdown',
